@@ -1,45 +1,3 @@
-/*
-----------------------------------
-
-        Name: styles.css
-        Version: 1.2
-		edited date:23-10-15
-----------------------------------
-
-        Table of Contents
-        
-        #Reset
-		#header
-		  	1 - Navigation right in menu.css
-		#Carousel main slider
-		#Our Team
-			1 - Carousel content slider our team in slick.css
-		#Services
-		#Make Appointment
-		#Parallax
-		#Gallery
-			1 - Gellery Portfolio & Images hover effect in lightbox.css 
-		#Promotions slider Mini
-     	#video Showreel
-		#Footer
-		#Form Alert
-		#slick slider Hover Effects
-		#blog
-		#blog classic
-		#blog Fullwidth
-		#blog Masonary
-		#testimonials
-		#media Query
-		
-		#typography font weight
-		Extra-light:200
-		light:300
-		normal:400
-		bold:700
-		
-		
-*/
-
 /* ==========================================================================
    #Reset
    ========================================================================== */
@@ -61,6 +19,11 @@ body {
 	background-color: #fff;
 	font-weight: 300;
 }
+
+.eapps-link {
+	display: none !important;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
 	display: block;
 }
