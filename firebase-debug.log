@@ -1,0 +1,30 @@
+[debug] [2020-10-21T18:24:26.154Z] ----------------------------------------------------------------------
+[debug] [2020-10-21T18:24:26.155Z] Command:       /Users/gatsby/.nvm/versions/node/v12.19.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2020-10-21T18:24:26.155Z] CLI Version:   7.14.0
+[debug] [2020-10-21T18:24:26.155Z] Platform:      darwin
+[debug] [2020-10-21T18:24:26.155Z] Node Version:  v12.19.0
+[debug] [2020-10-21T18:24:26.156Z] Time:          Wed Oct 21 2020 14:24:26 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-10-21T18:24:26.156Z] ----------------------------------------------------------------------
+[debug] [2020-10-21T18:24:26.156Z] 
+[debug] [2020-10-21T18:24:26.161Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-21T18:24:26.161Z] > authorizing via signed-in user
+[debug] [2020-10-21T18:24:26.161Z] [iam] checking project gloria-e6c15 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-21T18:24:26.162Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/gloria-e6c15:testIamPermissions  
+
+[debug] [2020-10-21T18:24:26.347Z] <<< HTTP RESPONSE 200
+[debug] [2020-10-21T18:24:26.348Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/gloria-e6c15  
+ 
+[debug] [2020-10-21T18:24:26.516Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'gloria-e6c15'...
+[info] 
+[info] i  deploying hosting
+[debug] [2020-10-21T18:24:26.518Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/gloria-e6c15/versions  
+
+[debug] [2020-10-21T18:24:27.166Z] <<< HTTP RESPONSE 200
+[info] i  hosting[gloria-e6c15]: beginning deploy...
+[info] i  hosting[gloria-e6c15]: found 251 files in ./
+[debug] [2020-10-21T18:24:27.213Z] [hosting] hash cache [] stored for 251 files
+[debug] [2020-10-21T18:24:27.213Z] [hosting][hash queue][FINAL]
+[debug] [2020-10-21T18:24:27.213Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/gloria-e6c15/versions/2ab551149ebe4685:populateFiles  
+ <request body omitted>
