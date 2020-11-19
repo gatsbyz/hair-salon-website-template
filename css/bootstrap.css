@@ -4349,14 +4349,14 @@ h1, .h1, h2, .h2 {
 	max-width: 120%
 }
 .gbg-white {
-	height: 250px
+	/*height: 250px*/
 }
 #promotions .carousel {
 	height: 396px;
 	margin-top: 20px
 }
 #promotions .carousel-control {
-	display: none
+	/*display: none*/
 }
 .map {
 	height: 280px
